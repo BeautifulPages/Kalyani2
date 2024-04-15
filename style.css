@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+ 
+    
+}
+
+/* navbar start */
+.navbar{
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    box-shadow: 4px 4px 8px; 
+   
+    
+}
+
+ .navbar a{
+    text-decoration: none;
+    padding:5px;
+    color: #1b1717;
+    text-align: center;
+    display: block;
+    background-color: #bce210;
+     
+}
+
+.navbar a:hover{
+    background-color: #2980f9;
+    color: black;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px #9b59b6;
+}
+/* navbar end */
+
+.card{
+    width: 150px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow:2px 2px 7px black;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.card .contains h4 a{
+    text-decoration: none;
+    color: rgb(22, 5, 85);
+    font-size: 15px;    
+  }
+  
+  .card .contains h4 a:hover{
+      text-decoration: underline;
+      color: tomato;
+  }
+
+.card{
+    background-color: #ffffff ;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 10px 10px 30px #ccc;
+}.card .price .pricenew{
+    color: rgb(216, 61, 33);
+    font-size: 20px;
+}
+.card .price{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.card .price .priceold{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.card .top-price{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    left: 0;
+
+
+}
+
+/* button start */
+.card .button .btn1{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: blue;
+    font-size: 15px;
+    font: weight 650;
+    
+}
+
+.card .button .btn2{
+    width: 100%;
+    margin-top:10px;
+    padding: 10px;
+}
+
+.card .button .btn1:hover{
+    border-radius: 5px;
+    background-color:#0984e3;
+    transition: 0.3s;
+    color: white;
+}
+
+.card .button .btn2:hover{
+    background-color: #b3eec3;
+    color: rgb(24, 20, 20);
+    border-radius: 5px;
+    transition: 0.3s;
+}
